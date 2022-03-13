@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Portfolio](/images/portfolio1.gif)
 
-## Available Scripts
+### A clean portfolio template. (Readme will be updated soon)
 
-In the project directory, you can run:
+# Sections
 
-### `npm start`
+- Home
+- Education and Certificates
+- Experience
+- Projects
+- Contact and Resume
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# How To Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clone this repository (or fork, then clone your fork :) )
+- Run `npm i`
+- Check it out using `npm start`
 
-### `npm test`
+# How Do I Customize
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
+- In `src/portfolio.js` you can add your personal portfolio details.
+- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
 
-### `npm run build`
+# How to Deploy
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
+- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
+- Now, you need to generate a production build and deploy the website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Option 1:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Run `npm run build` to generate the production build folder.
+- Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository. That's it. Done.
+  You may need to `git init` and force push at every new build.
 
-### `npm run eject`
+**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
+- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Technologies used 🛠️
 
-## Learn More
+- [React](https://reactjs.org/)
+- [graphql](https://graphql.org/)
+- [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
+- [baseui](https://github.com/uber/baseweb)
+- [react-reveal](https://www.react-reveal.com/)
+- [styled-components](https://styled-components.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# illustrations 🍥
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [UnDraw](https://undraw.co/illustrations)
 
-### Code Splitting
+# References
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Illustrations: https://undraw.co/
