@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Stephen",
   nickname: "Mshible / Steve",
   full_name: "Stephen Mhuli",
-  subTitle: "Full Stack Developer, Reactjs Enthusiast 🔥. Always learning.",
+  subTitle: "Full Stack Developer, Programming Enthusiast 🔥. Always ready to learn.",
   // resumeLink:
   //   "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:stevemshible@gmail.com",
@@ -312,7 +312,6 @@ const certifications = {
       // certificate_link:
       //   "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
       alt_name: "ProgrammingWithMosh",
-      // color_code: "#2AAFED",
       color_code: "#ffffff",
     },
     {
@@ -562,48 +561,48 @@ const projects = {
         },
       ],
     },
-    {
-      id: "2",
-      name: "node-blockchain",
-      //url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "top-crypto-gainers",
-      //url: "https://github.com/harikanani/top-crypto-gainers",
-      description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
+    // {
+    //   id: "2",
+    //   name: "node-blockchain",
+    //   //url: "https://github.com/harikanani/node-blockchain",
+    //   description:
+    //     "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "TypeScript",
+    //       iconifyClass: "logos-typescript",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "top-crypto-gainers",
+    //   //url: "https://github.com/harikanani/top-crypto-gainers",
+    //   description:
+    //     "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //   ],
+    // },
     // {
     //   id: "4",
     //   name: "personal-portfolio",
@@ -657,10 +656,10 @@ const projects = {
     // },
     {
       id: "5",
-      name: "iamStephen.github.io",
-      url: "https://github.com/Stephen-Mhuli/my-portfolio",
+      name: "Personal Portfolio",
+      url: "https://github.com/Stephen-Mhuli/my-personal-portfolio",
       description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.(The one you are browsing)",
       languages: [
         {
           name: "HTML5",
