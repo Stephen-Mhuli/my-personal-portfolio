@@ -538,26 +538,26 @@ const projects = {
     // },
     {
       id: "1",
-      name: "react-twitter-clone",
-      //url: "https://github.com/harikanani/react-twitter-clone",
+      name: "Car Renting App UI",
+      url: "https://github.com/Stephen-Mhuli/CarRental-App",
       description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+        "A simple React Native Car Renting UI with basic functionality such as make a Search a car,Rent a car.",
       languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
+        // {
+        //   name: "HTML5",
+        //   iconifyClass: "vscode-icons:file-type-html",
+        // },
+        // {
+        //   name: "CSS3",
+        //   iconifyClass: "vscode-icons:file-type-css",
+        // },
         {
           name: "React",
           iconifyClass: "logos-react",
         },
         {
           name: "Firebase",
-          iconifyClass: "logos-firebase",
+          iconifyClass: "logos-redux",
         },
       ],
     },
@@ -578,31 +578,31 @@ const projects = {
     //     },
     //   ],
     // },
-    // {
-    //   id: "3",
-    //   name: "top-crypto-gainers",
-    //   //url: "https://github.com/harikanani/top-crypto-gainers",
-    //   description:
-    //     "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
-    //   languages: [
-    //     {
-    //       name: "HTML5",
-    //       iconifyClass: "vscode-icons:file-type-html",
-    //     },
-    //     {
-    //       name: "CSS3",
-    //       iconifyClass: "vscode-icons:file-type-css",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "ReactJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //   ],
-    // },
+    {
+      id: "3",
+      name: "Content-Management-System",
+      //url: "https://github.com/harikanani/top-crypto-gainers",
+      description:
+        "Content management system where admin can edit what users see.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-php",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-mysql",
+        },
+      ],
+    },
     // {
     //   id: "4",
     //   name: "personal-portfolio",
@@ -661,22 +661,22 @@ const projects = {
       description:
         "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.(The one you are browsing)",
       languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
+        // {
+        //   name: "HTML5",
+        //   iconifyClass: "vscode-icons:file-type-html",
+        // },
+        // {
+        //   name: "CSS3",
+        //   iconifyClass: "vscode-icons:file-type-css",
+        // },
         {
           name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          iconifyClass: "logos-react",
         },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
+        // {
+        //   name: "SCSS",
+        //   iconifyClass: "vscode-icons:file-type-scss2",
+        // },
       ],
     },
     // {
@@ -767,37 +767,37 @@ const projects = {
     //     },
     //   ],
     // },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      //url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
+    // {
+    //   id: "10",
+    //   name: "COVID-19 Tracker",
+    //   //url: "https://github.com/harikanani/Covid19TrackerReact",
+    //   description:
+    //     "Simple Covid-19 Tracker made using React and deployed to Vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    // },
     {
       id: "11",
-      name: "Food Order Static Website",
-      //url: "https://github.com/harikanani/food-order-website",
+      name: "Food Order web app",
+      url: "https://github.com/Stephen-Mhuli/PizzaHouse",
       description:
-        "A simple static website related to food restaurants service. this is reasponsive as well.",
+        "A simple web app related to ordering Pizza using Laravel. This is reasponsive as well.",
       languages: [
         {
           name: "HTML5",
@@ -807,13 +807,13 @@ const projects = {
           name: "CSS3",
           iconifyClass: "logos-css-3",
         },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
+        // {
+        //   name: "JavaScript",
+        //   iconifyClass: "logos-javascript",
+        // },
         {
           name: "PHP",
-          iconifyClass: "logos-php",
+          iconifyClass: "logos-laravel",
         },
       ],
     },
