@@ -15,9 +15,9 @@ const greeting = {
   nickname: "Mshible / Steve",
   full_name: "Stephen Mhuli",
   subTitle: "Full Stack Developer, Programming Enthusiast 🔥. Always ready to learn.",
-  // resumeLink:
-  //   "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:stevemshible@gmail.com",
+  resumeLink:
+     "https://docs.google.com/document/d/1oirixm6qbrg1tCtwx6tLt6UGg094w06TAVFr5qgOPHc/edit?usp=sharing",
+  mail: "mailto: stevemshible@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -192,13 +192,13 @@ const skills = {
         //     color: "#E94E32",
         //   },
         // },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "simple-icons:python",
+        //   style: {
+        //     color: "#3776AB",
+        //   },
+        // },
       ],
     },
     {
