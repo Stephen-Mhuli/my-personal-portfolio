@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Stephen",
   nickname: "Mshible / Steve",
   full_name: "Stephen Mhuli",
-  subTitle: "Full Stack Developer, Programming Enthusiast 🔥. Always ready to learn.",
+  subTitle: "Full Stack Developer, Coding Enthusiast 🔥. Always ready to learn i.e Exploring the good stuffs.",
   resumeLink:
      "https://docs.google.com/document/d/1oirixm6qbrg1tCtwx6tLt6UGg094w06TAVFr5qgOPHc/edit?usp=sharing",
   mail: "mailto: stevemshible@gmail.com",
@@ -40,8 +40,8 @@ const skills = {
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
         "⚡ Developing mobile applications using React Native and Redux",
-        "⚡ Creating application backend in Node, Express & Laravel",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Creating application backend in Laravel",
+        //"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
         {
@@ -80,13 +80,13 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "simple-icons:node-dot-js",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -94,13 +94,13 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#439743",
+        //   },
+        // },
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -108,20 +108,20 @@ const skills = {
         //     color: "#DE33A6",
         //   },
         // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
+        // {
+        //   skillName: "Android",
+        //   fontAwesomeClassname: "simple-icons:android",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
@@ -210,13 +210,13 @@ const skills = {
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
+        // {
+        //   skillName: "AWS",
+        //   fontAwesomeClassname: "simple-icons:amazonaws",
+        //   style: {
+        //     color: "#FF9900",
+        //   },
+        // },
         // {
         //   skillName: "Netlify",
         //   fontAwesomeClassname: "simple-icons:netlify",
@@ -231,13 +231,13 @@ const skills = {
             color: "#6863A6",
           },
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
+        // {
+        //   skillName: "Firebase",
+        //   fontAwesomeClassname: "simple-icons:firebase",
+        //   style: {
+        //     color: "#FFCA28",
+        //   },
+        // },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -245,13 +245,13 @@ const skills = {
             color: "#336791",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#47A248",
+        //   },
+        // },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -306,18 +306,18 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "React Native Full course",
-      subtitle: "ProgrammingWithMosh",
-      logo_path: "react.png",
+      title: "Web Development MasterClass",
+      subtitle: "Complete Certificate Course",
+      logo_path: "web.jpg",
       // certificate_link:
       //   "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
       alt_name: "ProgrammingWithMosh",
       color_code: "#ffffff",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "smartclass-logo.png",
+      title: "Hackathon + UOP",
+      subtitle: "University Outreach Program",
+      logo_path: "smartlab2.png",
       // certificate_link:
       //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
       alt_name: "hackathon",
@@ -580,22 +580,26 @@ const projects = {
     // },
     {
       id: "3",
-      name: "Content-Management-System",
-      //url: "https://github.com/harikanani/top-crypto-gainers",
+      name: "E-Commerce API using Laravel",
+      url: "https://github.com/Stephen-Mhuli/kilimo-api",
       description:
-        "Content management system where admin can edit what users see.",
+        "An API made using laravel framework for CRUD operations on the database and link to web and mobile applications",
       languages: [
+        // {
+        //   name: "HTML5",
+        //   iconifyClass: "vscode-icons:file-type-html",
+        // },
+        // {
+        //   name: "CSS3",
+        //   iconifyClass: "vscode-icons:file-type-css",
+        // },
+        // {
+        //   name: "JavaScript",
+        //   iconifyClass: "logos-php",
+        // },
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-php",
+          name: "PHP",
+          iconifyClass: "logos-laravel",
         },
         {
           name: "ReactJS",
@@ -657,7 +661,7 @@ const projects = {
     {
       id: "5",
       name: "Personal Portfolio",
-      url: "https://github.com/Stephen-Mhuli/my-personal-portfolio",
+      url: "https://github.com/Stephen-Mhuli/portfolio",
       description:
         "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.(The one you are browsing)",
       languages: [
