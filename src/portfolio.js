@@ -321,7 +321,7 @@ const certifications = {
       // certificate_link:
       //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
       alt_name: "hackathon",
-      color_code: "#ffffff",
+      color_code: "green",
     },
     // {
     //   title: "A300: Atlas Security",
@@ -361,14 +361,14 @@ const certifications = {
     //   color_code: "#2AAFED",
     // },
     {
-      title: "Laravel Full course",
-      subtitle: "Laracasts",
-      logo_path: "laravel.png",
+      title: "JavaScript Complete Course",
+      subtitle: "JavaScript Basics",
+      logo_path: "js.png",
       // certificate_link:
       //   "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
       alt_name: "Laravel",
       // color_code: "#f36c3d",
-      color_code: "#fffbf3",
+      color_code: "yellow",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
