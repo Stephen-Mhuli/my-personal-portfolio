@@ -309,8 +309,8 @@ const certifications = {
       title: "Web Development MasterClass",
       subtitle: "Complete Certificate Course",
       logo_path: "web.jpg",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+      certificate_link:
+         "https://docs.google.com/document/d/1tbVSiX6PgNP_CWVQGqcaicwJ_QkSlECpn44u7Jm6Wbo/edit?usp=sharing",
       alt_name: "Masterclass",
       color_code: "#ffffff",
     },
@@ -364,8 +364,8 @@ const certifications = {
       title: "JavaScript Complete Course",
       subtitle: "JavaScript Basics",
       logo_path: "js.png",
-      // certificate_link:
-      //   "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
+      certificate_link:
+         "https://docs.google.com/document/d/1aWM79bdA408IPJpbQ4TaexcXOUKJyGmjHB29UIatZ5c/edit?usp=sharing",
       alt_name: "Laravel",
       // color_code: "#f36c3d",
       color_code: "yellow",
