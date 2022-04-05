@@ -311,7 +311,7 @@ const certifications = {
       logo_path: "web.jpg",
       // certificate_link:
       //   "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "ProgrammingWithMosh",
+      alt_name: "Masterclass",
       color_code: "#ffffff",
     },
     {
