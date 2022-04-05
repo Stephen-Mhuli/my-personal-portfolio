@@ -40,7 +40,7 @@ const skills = {
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
         "⚡ Developing mobile applications using React Native and Redux",
-        "⚡ Creating application backend in Laravel",
+        "⚡ Creating application backend and APIs in Laravel",
         //"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
@@ -501,7 +501,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create Laravel Backend Projects, and React Projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
